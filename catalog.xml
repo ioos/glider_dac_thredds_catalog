@@ -9,6 +9,7 @@
   <catalogRef xlink:href="/scratch/glider_dac_thredds_catalog/superkyle/withTHREDDS/catalog.xml" xlink:title="superkyle - withTHREDDS" name=""/>
   <catalogRef xlink:href="/scratch/glider_dac_thredds_catalog/superkyle/Teleconwith John/catalog.xml" xlink:title="superkyle - Teleconwith John" name=""/>
   <catalogRef xlink:href="/scratch/glider_dac_thredds_catalog/superkyle/newtargetdir/catalog.xml" xlink:title="superkyle - newtargetdir" name=""/>
+  <catalogRef xlink:href="/scratch/glider_dac_thredds_catalog/superkyle/fullcycle/catalog.xml" xlink:title="superkyle - fullcycle" name=""/>
   <catalogRef xlink:href="/scratch/glider_dac_thredds_catalog/superkyle/localcreate2/catalog.xml" xlink:title="superkyle - localcreate2" name=""/>
   <catalogRef xlink:href="/scratch/glider_dac_thredds_catalog/superkyle/emptydir/catalog.xml" xlink:title="superkyle - emptydir" name=""/>
   <catalogRef xlink:href="/scratch/glider_dac_thredds_catalog/superkyle/localcreate/catalog.xml" xlink:title="superkyle - localcreate" name=""/>
