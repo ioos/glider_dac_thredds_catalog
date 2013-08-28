@@ -1,5 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<catalog name="IOOS Glider DAC - TDS"
-        xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
-        xmlns:xlink="http://www.w3.org/1999/xlink">
+<catalog xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" name="IOOS Glider DAC - Catalog">
+  <catalogRef xlink:href="/data/sync/testftpuser/manual_dir_create/catalog.xml" xlink:title="testftpuser - manual_dir_create" name=""/>
+  <catalogRef xlink:href="/data/sync/testftpuser/manual_dir_create_4/catalog.xml" xlink:title="testftpuser - manual_dir_create_4" name=""/>
+  <catalogRef xlink:href="/data/sync/testftpuser/manual_dir_create_3/catalog.xml" xlink:title="testftpuser - manual_dir_create_3" name=""/>
+  <catalogRef xlink:href="/data/sync/testftpuser/manual_dir_create_2/catalog.xml" xlink:title="testftpuser - manual_dir_create_2" name=""/>
+  <catalogRef xlink:href="/data/sync/testftpuser/web_dir_create/catalog.xml" xlink:title="testftpuser - web_dir_create" name=""/>
+  <catalogRef xlink:href="/data/sync/superkyle/FridayAfternoonHodown/catalog.xml" xlink:title="superkyle - FridayAfternoonHodown" name=""/>
+  <catalogRef xlink:href="/data/sync/superkyle/anothetds/catalog.xml" xlink:title="superkyle - anothetds" name=""/>
+  <catalogRef xlink:href="/data/sync/superkyle/withTHREDDS/catalog.xml" xlink:title="superkyle - withTHREDDS" name=""/>
+  <catalogRef xlink:href="/data/sync/superkyle/Teleconwith John/catalog.xml" xlink:title="superkyle - Teleconwith John" name=""/>
+  <catalogRef xlink:href="/data/sync/superkyle/newtargetdir/catalog.xml" xlink:title="superkyle - newtargetdir" name=""/>
+  <catalogRef xlink:href="/data/sync/superkyle/localcreate2/catalog.xml" xlink:title="superkyle - localcreate2" name=""/>
+  <catalogRef xlink:href="/data/sync/superkyle/emptydir/catalog.xml" xlink:title="superkyle - emptydir" name=""/>
+  <catalogRef xlink:href="/data/sync/superkyle/localcreate/catalog.xml" xlink:title="superkyle - localcreate" name=""/>
+  <catalogRef xlink:href="scratch.xml" xlink:title="Scratch and Testing" name=""/>
 </catalog>
