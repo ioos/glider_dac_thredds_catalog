@@ -11,6 +11,7 @@
   <catalogRef xlink:href="superkyle/newtargetdir/catalog.xml" xlink:title="superkyle - newtargetdir" name=""/>
   <catalogRef xlink:href="superkyle/finaltestplease/catalog.xml" xlink:title="superkyle - finaltestplease" name=""/>
   <catalogRef xlink:href="superkyle/fullcycle/catalog.xml" xlink:title="superkyle - fullcycle" name=""/>
+  <catalogRef xlink:href="superkyle/rsynctest/catalog.xml" xlink:title="superkyle - rsynctest" name=""/>
   <catalogRef xlink:href="superkyle/localcreate2/catalog.xml" xlink:title="superkyle - localcreate2" name=""/>
   <catalogRef xlink:href="superkyle/emptydir/catalog.xml" xlink:title="superkyle - emptydir" name=""/>
   <catalogRef xlink:href="superkyle/srslythelasttest/catalog.xml" xlink:title="superkyle - srslythelasttest" name=""/>
