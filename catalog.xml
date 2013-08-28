@@ -13,6 +13,7 @@
   <catalogRef xlink:href="superkyle/fullcycle/catalog.xml" xlink:title="superkyle - fullcycle" name=""/>
   <catalogRef xlink:href="superkyle/localcreate2/catalog.xml" xlink:title="superkyle - localcreate2" name=""/>
   <catalogRef xlink:href="superkyle/emptydir/catalog.xml" xlink:title="superkyle - emptydir" name=""/>
+  <catalogRef xlink:href="superkyle/srslythelasttest/catalog.xml" xlink:title="superkyle - srslythelasttest" name=""/>
   <catalogRef xlink:href="superkyle/localcreate/catalog.xml" xlink:title="superkyle - localcreate" name=""/>
   <catalogRef xlink:href="scratch.xml" xlink:title="Scratch and Testing" name=""/>
 </catalog>
