@@ -1,3 +1,7 @@
 <catalog xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" name="IOOS Glider DAC - Catalog">
+  <catalogRef xlink:href="rutgers/ru29-20130111T0724/catalog.xml" xlink:title="rutgers - ru29-20130111T0724" name=""/>
+  <catalogRef xlink:href="rutgers/ru05-20130815T1650-test/catalog.xml" xlink:title="rutgers - ru05-20130815T1650-test" name=""/>
+  <catalogRef xlink:href="rutgers/ru07-20130815T1701/catalog.xml" xlink:title="rutgers - ru07-20130815T1701" name=""/>
+  <catalogRef xlink:href="rutgers/ru05-20130815T1650/catalog.xml" xlink:title="rutgers - ru05-20130815T1650" name=""/>
   <catalogRef xlink:href="scratch.xml" xlink:title="Scratch and Testing" name=""/>
 </catalog>
