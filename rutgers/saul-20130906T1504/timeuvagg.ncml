@@ -22,11 +22,11 @@
               <remove type="variable" name="temperature_qc"/>
 
               <variable name="platform">
-                <attribute name="wmo_id" value="1801500" />
+                <attribute name="wmo_id" value="4801503" />
               </variable>
 
               <aggregation dimName="time_uv" type="joinExisting" recheckEvery="5 min">
-                <scan location="/data/sync/rutgers/ru29-20130111T0724" suffix=".nc" subdirs="false" />
+                <scan location="/data/sync/rutgers/saul-20130906T1504" suffix=".nc" subdirs="false" />
               </aggregation>
             </netcdf>
             
