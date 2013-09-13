@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <catalog name="IOOS Glider DAC - rutgers - ru28-20130912T1650 Catalog"
+         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+
+          <service name="all" base="" serviceType="compound">
+            <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+            <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
+            <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
+            <service name="uddc" serviceType="UDDC" base="/thredds/uddc/" />
+            <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+            <service name="sos" serviceType="SOS" base="/thredds/sos/" />
+          </service>
+
+          <service name="agg" base="" serviceType="compound">
+            <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+            <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
+            <service name="uddc" serviceType="UDDC" base="/thredds/uddc/" />
+            <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+            <service name="sos" serviceType="SOS" base="/thredds/sos/" />
+          </service>
+
+          <dataset name="rutgers - ru28-20130912T1650 - Time Aggregation" ID="rutgers_ru28-20130912T1650_Time" urlPath="rutgers_ru28-20130912T1650_Time.ncml">
+            <serviceName>agg</serviceName>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/ru28-20130912T1650/timeagg.ncml" />
+          </dataset>
+
+          <dataset name="rutgers - ru28-20130912T1650 - Depth Averaged Aggregation" ID="rutgers_ru28-20130912T1650_TimeUV" urlPath="rutgers_ru28-20130912T1650_TimeUV.ncml">
+            <serviceName>agg</serviceName>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/ru28-20130912T1650/timeuvagg.ncml" />
+          </dataset>
+
+          <datasetScan name="rutgers - ru28-20130912T1650 - Individual Files" ID="rutgers_ru28-20130912T1650_Files" path="rutgers_ru28-20130912T1650_Files" location="/data/sync/rutgers/ru28-20130912T1650">
+            <metadata inherited="true">
+              <serviceName>all</serviceName>
+            </metadata>
+            <filter>
+              <include wildcard="*.nc"/>
+            </filter>
+          </datasetScan>
+        </catalog>
+        

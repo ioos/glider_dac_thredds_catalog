@@ -2,10 +2,13 @@
   <catalogRef xlink:href="rutgers/ru29-20130111T0724/catalog.xml" xlink:title="rutgers - ru29-20130111T0724" name=""/>
   <catalogRef xlink:href="rutgers/otn200-20130910T1551/catalog.xml" xlink:title="rutgers - otn200-20130910T1551" name=""/>
   <catalogRef xlink:href="rutgers/ru23-20130910T1701/catalog.xml" xlink:title="rutgers - ru23-20130910T1701" name=""/>
+  <catalogRef xlink:href="rutgers/modena-20130911T1629/catalog.xml" xlink:title="rutgers - modena-20130911T1629" name=""/>
   <catalogRef xlink:href="rutgers/ru05-20130815T1650-test/catalog.xml" xlink:title="rutgers - ru05-20130815T1650-test" name=""/>
   <catalogRef xlink:href="rutgers/blue-20130906T1347/catalog.xml" xlink:title="rutgers - blue-20130906T1347" name=""/>
   <catalogRef xlink:href="rutgers/ru07-20130815T1701/catalog.xml" xlink:title="rutgers - ru07-20130815T1701" name=""/>
   <catalogRef xlink:href="rutgers/ru05-20130815T1650/catalog.xml" xlink:title="rutgers - ru05-20130815T1650" name=""/>
   <catalogRef xlink:href="rutgers/saul-20130906T1504/catalog.xml" xlink:title="rutgers - saul-20130906T1504" name=""/>
+  <catalogRef xlink:href="rutgers/ru28-20130912T1650/catalog.xml" xlink:title="rutgers - ru28-20130912T1650" name=""/>
+  <catalogRef xlink:href="rutgers/penobscot-20130910T1658/catalog.xml" xlink:title="rutgers - penobscot-20130910T1658" name=""/>
   <catalogRef xlink:href="scratch.xml" xlink:title="Scratch and Testing" name=""/>
 </catalog>
