@@ -10,6 +10,7 @@
   <catalogRef xlink:href="rutgers/ru05-20130815T1650/catalog.xml" xlink:title="rutgers - ru05-20130815T1650" name=""/>
   <catalogRef xlink:href="rutgers/saul-20130906T1504/catalog.xml" xlink:title="rutgers - saul-20130906T1504" name=""/>
   <catalogRef xlink:href="rutgers/ru28-20130912T1650/catalog.xml" xlink:title="rutgers - ru28-20130912T1650" name=""/>
+  <catalogRef xlink:href="rutgers/otn201-20130916T1448/catalog.xml" xlink:title="rutgers - otn201-20130916T1448" name=""/>
   <catalogRef xlink:href="rutgers/penobscot-20130910T1658/catalog.xml" xlink:title="rutgers - penobscot-20130910T1658" name=""/>
   <catalogRef xlink:href="scratch.xml" xlink:title="Scratch and Testing" name=""/>
 </catalog>
