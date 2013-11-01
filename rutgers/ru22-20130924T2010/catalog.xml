@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <catalog name="IOOS Glider DAC - rutgers - ru22-20130924T2010 Catalog"
+        <catalog name="IOOS Glider DAC - Rutgers-University - ru22-20130924T2010 Catalog"
          xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
          xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -20,23 +20,28 @@
             <service name="sos" serviceType="SOS" base="/thredds/sos/" />
           </service>
 
-          <dataset name="rutgers - ru22-20130924T2010 - Time Aggregation" ID="rutgers_ru22-20130924T2010_Time" urlPath="rutgers_ru22-20130924T2010_Time.ncml">
+          <dataset name="Rutgers-University - ru22-20130924T2010 - Time Aggregation" ID="Rutgers-University_ru22-20130924T2010_Time" urlPath="Rutgers-University_ru22-20130924T2010_Time.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/ru22-20130924T2010/timeagg.ncml" />
           </dataset>
 
-          <dataset name="rutgers - ru22-20130924T2010 - Depth Averaged Aggregation" ID="rutgers_ru22-20130924T2010_TimeUV" urlPath="rutgers_ru22-20130924T2010_TimeUV.ncml">
+          <dataset name="Rutgers-University - ru22-20130924T2010 - Depth Averaged Aggregation" ID="Rutgers-University_ru22-20130924T2010_TimeUV" urlPath="Rutgers-University_ru22-20130924T2010_TimeUV.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/ru22-20130924T2010/timeuvagg.ncml" />
           </dataset>
 
-          <datasetScan name="rutgers - ru22-20130924T2010 - Individual Files" ID="rutgers_ru22-20130924T2010_Files" path="rutgers_ru22-20130924T2010_Files" location="/data/sync/rutgers/ru22-20130924T2010">
+          <datasetScan name="Rutgers-University - ru22-20130924T2010 - Individual Files" ID="Rutgers-University_ru22-20130924T2010_Files" path="Rutgers-University_ru22-20130924T2010_Files" location="/data/sync/rutgers/ru22-20130924T2010">
             <metadata inherited="true">
               <serviceName>all</serviceName>
             </metadata>
             <filter>
               <include wildcard="*.nc"/>
             </filter>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+              <variable name="platform">
+                <attribute name="wmo_id" value="4801506" />
+              </variable>
+            </netcdf>
           </datasetScan>
         </catalog>
         

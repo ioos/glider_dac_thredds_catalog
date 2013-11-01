@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <catalog name="IOOS Glider DAC - rutgers - salacia-20130916T1603 Catalog"
+        <catalog name="IOOS Glider DAC - North-Caroline-State-University - salacia-20130916T1603 Catalog"
          xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
          xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -20,23 +20,28 @@
             <service name="sos" serviceType="SOS" base="/thredds/sos/" />
           </service>
 
-          <dataset name="rutgers - salacia-20130916T1603 - Time Aggregation" ID="rutgers_salacia-20130916T1603_Time" urlPath="rutgers_salacia-20130916T1603_Time.ncml">
+          <dataset name="North-Caroline-State-University - salacia-20130916T1603 - Time Aggregation" ID="North-Caroline-State-University_salacia-20130916T1603_Time" urlPath="North-Caroline-State-University_salacia-20130916T1603_Time.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/salacia-20130916T1603/timeagg.ncml" />
           </dataset>
 
-          <dataset name="rutgers - salacia-20130916T1603 - Depth Averaged Aggregation" ID="rutgers_salacia-20130916T1603_TimeUV" urlPath="rutgers_salacia-20130916T1603_TimeUV.ncml">
+          <dataset name="North-Caroline-State-University - salacia-20130916T1603 - Depth Averaged Aggregation" ID="North-Caroline-State-University_salacia-20130916T1603_TimeUV" urlPath="North-Caroline-State-University_salacia-20130916T1603_TimeUV.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/salacia-20130916T1603/timeuvagg.ncml" />
           </dataset>
 
-          <datasetScan name="rutgers - salacia-20130916T1603 - Individual Files" ID="rutgers_salacia-20130916T1603_Files" path="rutgers_salacia-20130916T1603_Files" location="/data/sync/rutgers/salacia-20130916T1603">
+          <datasetScan name="North-Caroline-State-University - salacia-20130916T1603 - Individual Files" ID="North-Caroline-State-University_salacia-20130916T1603_Files" path="North-Caroline-State-University_salacia-20130916T1603_Files" location="/data/sync/rutgers/salacia-20130916T1603">
             <metadata inherited="true">
               <serviceName>all</serviceName>
             </metadata>
             <filter>
               <include wildcard="*.nc"/>
             </filter>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+              <variable name="platform">
+                <attribute name="wmo_id" value="4801510" />
+              </variable>
+            </netcdf>
           </datasetScan>
         </catalog>
         

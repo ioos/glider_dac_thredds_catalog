@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <catalog name="IOOS Glider DAC - rutgers - modena-20130911T1629 Catalog"
+        <catalog name="IOOS Glider DAC - University-of-Georgia - modena-20130911T1629 Catalog"
          xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
          xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -20,23 +20,28 @@
             <service name="sos" serviceType="SOS" base="/thredds/sos/" />
           </service>
 
-          <dataset name="rutgers - modena-20130911T1629 - Time Aggregation" ID="rutgers_modena-20130911T1629_Time" urlPath="rutgers_modena-20130911T1629_Time.ncml">
+          <dataset name="University-of-Georgia - modena-20130911T1629 - Time Aggregation" ID="University-of-Georgia_modena-20130911T1629_Time" urlPath="University-of-Georgia_modena-20130911T1629_Time.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/modena-20130911T1629/timeagg.ncml" />
           </dataset>
 
-          <dataset name="rutgers - modena-20130911T1629 - Depth Averaged Aggregation" ID="rutgers_modena-20130911T1629_TimeUV" urlPath="rutgers_modena-20130911T1629_TimeUV.ncml">
+          <dataset name="University-of-Georgia - modena-20130911T1629 - Depth Averaged Aggregation" ID="University-of-Georgia_modena-20130911T1629_TimeUV" urlPath="University-of-Georgia_modena-20130911T1629_TimeUV.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/modena-20130911T1629/timeuvagg.ncml" />
           </dataset>
 
-          <datasetScan name="rutgers - modena-20130911T1629 - Individual Files" ID="rutgers_modena-20130911T1629_Files" path="rutgers_modena-20130911T1629_Files" location="/data/sync/rutgers/modena-20130911T1629">
+          <datasetScan name="University-of-Georgia - modena-20130911T1629 - Individual Files" ID="University-of-Georgia_modena-20130911T1629_Files" path="University-of-Georgia_modena-20130911T1629_Files" location="/data/sync/rutgers/modena-20130911T1629">
             <metadata inherited="true">
               <serviceName>all</serviceName>
             </metadata>
             <filter>
               <include wildcard="*.nc"/>
             </filter>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+              <variable name="platform">
+                <attribute name="wmo_id" value="4801511" />
+              </variable>
+            </netcdf>
           </datasetScan>
         </catalog>
         

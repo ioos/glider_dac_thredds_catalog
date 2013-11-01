@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <catalog name="IOOS Glider DAC - rutgers - otn201-20130916T1448 Catalog"
+        <catalog name="IOOS Glider DAC - Dalhousie-University - otn201-20130916T1448 Catalog"
          xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
          xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -20,23 +20,28 @@
             <service name="sos" serviceType="SOS" base="/thredds/sos/" />
           </service>
 
-          <dataset name="rutgers - otn201-20130916T1448 - Time Aggregation" ID="rutgers_otn201-20130916T1448_Time" urlPath="rutgers_otn201-20130916T1448_Time.ncml">
+          <dataset name="Dalhousie-University - otn201-20130916T1448 - Time Aggregation" ID="Dalhousie-University_otn201-20130916T1448_Time" urlPath="Dalhousie-University_otn201-20130916T1448_Time.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/otn201-20130916T1448/timeagg.ncml" />
           </dataset>
 
-          <dataset name="rutgers - otn201-20130916T1448 - Depth Averaged Aggregation" ID="rutgers_otn201-20130916T1448_TimeUV" urlPath="rutgers_otn201-20130916T1448_TimeUV.ncml">
+          <dataset name="Dalhousie-University - otn201-20130916T1448 - Depth Averaged Aggregation" ID="Dalhousie-University_otn201-20130916T1448_TimeUV" urlPath="Dalhousie-University_otn201-20130916T1448_TimeUV.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/otn201-20130916T1448/timeuvagg.ncml" />
           </dataset>
 
-          <datasetScan name="rutgers - otn201-20130916T1448 - Individual Files" ID="rutgers_otn201-20130916T1448_Files" path="rutgers_otn201-20130916T1448_Files" location="/data/sync/rutgers/otn201-20130916T1448">
+          <datasetScan name="Dalhousie-University - otn201-20130916T1448 - Individual Files" ID="Dalhousie-University_otn201-20130916T1448_Files" path="Dalhousie-University_otn201-20130916T1448_Files" location="/data/sync/rutgers/otn201-20130916T1448">
             <metadata inherited="true">
               <serviceName>all</serviceName>
             </metadata>
             <filter>
               <include wildcard="*.nc"/>
             </filter>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+              <variable name="platform">
+                <attribute name="wmo_id" value="4800923" />
+              </variable>
+            </netcdf>
           </datasetScan>
         </catalog>
         

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <catalog name="IOOS Glider DAC - rutgers - penobscot-20130910T1658 Catalog"
+        <catalog name="IOOS Glider DAC - University-of-Maine - penobscot-20130910T1658 Catalog"
          xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
          xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -20,23 +20,28 @@
             <service name="sos" serviceType="SOS" base="/thredds/sos/" />
           </service>
 
-          <dataset name="rutgers - penobscot-20130910T1658 - Time Aggregation" ID="rutgers_penobscot-20130910T1658_Time" urlPath="rutgers_penobscot-20130910T1658_Time.ncml">
+          <dataset name="University-of-Maine - penobscot-20130910T1658 - Time Aggregation" ID="University-of-Maine_penobscot-20130910T1658_Time" urlPath="University-of-Maine_penobscot-20130910T1658_Time.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/penobscot-20130910T1658/timeagg.ncml" />
           </dataset>
 
-          <dataset name="rutgers - penobscot-20130910T1658 - Depth Averaged Aggregation" ID="rutgers_penobscot-20130910T1658_TimeUV" urlPath="rutgers_penobscot-20130910T1658_TimeUV.ncml">
+          <dataset name="University-of-Maine - penobscot-20130910T1658 - Depth Averaged Aggregation" ID="University-of-Maine_penobscot-20130910T1658_TimeUV" urlPath="University-of-Maine_penobscot-20130910T1658_TimeUV.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/penobscot-20130910T1658/timeuvagg.ncml" />
           </dataset>
 
-          <datasetScan name="rutgers - penobscot-20130910T1658 - Individual Files" ID="rutgers_penobscot-20130910T1658_Files" path="rutgers_penobscot-20130910T1658_Files" location="/data/sync/rutgers/penobscot-20130910T1658">
+          <datasetScan name="University-of-Maine - penobscot-20130910T1658 - Individual Files" ID="University-of-Maine_penobscot-20130910T1658_Files" path="University-of-Maine_penobscot-20130910T1658_Files" location="/data/sync/rutgers/penobscot-20130910T1658">
             <metadata inherited="true">
               <serviceName>all</serviceName>
             </metadata>
             <filter>
               <include wildcard="*.nc"/>
             </filter>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+              <variable name="platform">
+                <attribute name="wmo_id" value="4801502" />
+              </variable>
+            </netcdf>
           </datasetScan>
         </catalog>
         

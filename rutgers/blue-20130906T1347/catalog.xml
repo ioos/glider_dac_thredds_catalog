@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <catalog name="IOOS Glider DAC - rutgers - blue-20130906T1347 Catalog"
+        <catalog name="IOOS Glider DAC - University-of-Massachusetts-Dartmouth - blue-20130906T1347 Catalog"
          xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
          xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -20,23 +20,28 @@
             <service name="sos" serviceType="SOS" base="/thredds/sos/" />
           </service>
 
-          <dataset name="rutgers - blue-20130906T1347 - Time Aggregation" ID="rutgers_blue-20130906T1347_Time" urlPath="rutgers_blue-20130906T1347_Time.ncml">
+          <dataset name="University-of-Massachusetts-Dartmouth - blue-20130906T1347 - Time Aggregation" ID="University-of-Massachusetts-Dartmouth_blue-20130906T1347_Time" urlPath="University-of-Massachusetts-Dartmouth_blue-20130906T1347_Time.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/blue-20130906T1347/timeagg.ncml" />
           </dataset>
 
-          <dataset name="rutgers - blue-20130906T1347 - Depth Averaged Aggregation" ID="rutgers_blue-20130906T1347_TimeUV" urlPath="rutgers_blue-20130906T1347_TimeUV.ncml">
+          <dataset name="University-of-Massachusetts-Dartmouth - blue-20130906T1347 - Depth Averaged Aggregation" ID="University-of-Massachusetts-Dartmouth_blue-20130906T1347_TimeUV" urlPath="University-of-Massachusetts-Dartmouth_blue-20130906T1347_TimeUV.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/blue-20130906T1347/timeuvagg.ncml" />
           </dataset>
 
-          <datasetScan name="rutgers - blue-20130906T1347 - Individual Files" ID="rutgers_blue-20130906T1347_Files" path="rutgers_blue-20130906T1347_Files" location="/data/sync/rutgers/blue-20130906T1347">
+          <datasetScan name="University-of-Massachusetts-Dartmouth - blue-20130906T1347 - Individual Files" ID="University-of-Massachusetts-Dartmouth_blue-20130906T1347_Files" path="University-of-Massachusetts-Dartmouth_blue-20130906T1347_Files" location="/data/sync/rutgers/blue-20130906T1347">
             <metadata inherited="true">
               <serviceName>all</serviceName>
             </metadata>
             <filter>
               <include wildcard="*.nc"/>
             </filter>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+              <variable name="platform">
+                <attribute name="wmo_id" value="4801504" />
+              </variable>
+            </netcdf>
           </datasetScan>
         </catalog>
         
