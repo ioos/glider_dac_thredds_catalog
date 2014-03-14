@@ -15,5 +15,6 @@
   <catalogRef xlink:href="rutgers/ru28-20130912T1650/catalog.xml" xlink:title="Rutgers-University - ru28-20130912T1650" name=""/>
   <catalogRef xlink:href="rutgers/otn201-20130916T1448/catalog.xml" xlink:title="Dalhousie-University - otn201-20130916T1448" name=""/>
   <catalogRef xlink:href="rutgers/penobscot-20130910T1658/catalog.xml" xlink:title="University-of-Maine - penobscot-20130910T1658" name=""/>
+  <catalogRef xlink:href="usf/usfbass-20140303T1600/catalog.xml" xlink:title="University-of-South-Florida - usfbass-20140303T1600" name=""/>
   <catalogRef xlink:href="scratch.xml" xlink:title="Scratch and Testing" name=""/>
 </catalog>
