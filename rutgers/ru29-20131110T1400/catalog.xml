@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <catalog name="IOOS Glider DAC - rutgers - ru29-20131110T1400 Catalog"
+        <catalog name="IOOS Glider DAC - Rutgers-University - ru29-20131110T1400 Catalog"
          xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
          xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -20,17 +20,17 @@
             <service name="sos" serviceType="SOS" base="/thredds/sos/" />
           </service>
 
-          <dataset name="rutgers - ru29-20131110T1400 - Time Aggregation" ID="rutgers_ru29-20131110T1400_Time" urlPath="rutgers_ru29-20131110T1400_Time.ncml">
+          <dataset name="Rutgers-University - ru29-20131110T1400 - Time Aggregation" ID="Rutgers-University_ru29-20131110T1400_Time" urlPath="Rutgers-University_ru29-20131110T1400_Time.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/ru29-20131110T1400/timeagg.ncml" />
           </dataset>
 
-          <dataset name="rutgers - ru29-20131110T1400 - Depth Averaged Aggregation" ID="rutgers_ru29-20131110T1400_TimeUV" urlPath="rutgers_ru29-20131110T1400_TimeUV.ncml">
+          <dataset name="Rutgers-University - ru29-20131110T1400 - Depth Averaged Aggregation" ID="Rutgers-University_ru29-20131110T1400_TimeUV" urlPath="Rutgers-University_ru29-20131110T1400_TimeUV.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/ru29-20131110T1400/timeuvagg.ncml" />
           </dataset>
 
-          <datasetScan name="rutgers - ru29-20131110T1400 - Individual Files" ID="rutgers_ru29-20131110T1400_Files" path="rutgers_ru29-20131110T1400_Files" location="/data/sync/rutgers/ru29-20131110T1400">
+          <datasetScan name="Rutgers-University - ru29-20131110T1400 - Individual Files" ID="Rutgers-University_ru29-20131110T1400_Files" path="Rutgers-University_ru29-20131110T1400_Files" location="/data/sync/rutgers/ru29-20131110T1400">
             <metadata inherited="true">
               <serviceName>all</serviceName>
             </metadata>
