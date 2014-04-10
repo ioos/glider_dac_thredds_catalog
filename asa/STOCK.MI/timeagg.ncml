@@ -8,11 +8,11 @@
               <remove type="variable" name="v_qc"/>
 
               <variable name="platform">
-                <attribute name="wmo_id" value="4801503" />
+                <attribute name="wmo_id" value="NotAssigned" />
               </variable>
 
               <aggregation dimName="time" type="joinExisting" recheckEvery="5 min">
-                <scan location="/data/sync/rutgers/saul-20130906T1504" suffix=".nc" subdirs="false" />
+                <scan location="/data/sync/asa/STOCK.MI" suffix=".nc" subdirs="false" />
               </aggregation>
             </netcdf>
             
