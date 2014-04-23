@@ -1,7 +1,10 @@
 <catalog xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" name="IOOS Glider DAC - Catalog">
-  <catalogRef xlink:href="asa/STOCK.MI/catalog.xml" xlink:title="GLOS - STOCKMI" name=""/>
+  <catalogRef xlink:href="rmendels/siospray31-20140405T1440/catalog.xml" xlink:title="rmendels - siospray31-20140405T1440" name=""/>
+  <catalogRef xlink:href="rmendels/sio-spray31/catalog.xml" xlink:title="rmendels - sio-spray31" name=""/>
+  <catalogRef xlink:href="asa/unit-20121005T0023/catalog.xml" xlink:title="GLOS - STOCKMI" name=""/>
   <catalogRef xlink:href="rutgers/ru29-20130111T0724/catalog.xml" xlink:title="Rutgers-University - ru29-20130111T0724" name=""/>
   <catalogRef xlink:href="rutgers/otn200-20130910T1551/catalog.xml" xlink:title="Dalhousie-University - otn200-20130910T1551" name=""/>
+  <catalogRef xlink:href="rutgers/ru30-20140422T1743/catalog.xml" xlink:title="Rutgers-University - ru30-20140422T1743" name=""/>
   <catalogRef xlink:href="rutgers/ru23-20130910T1701/catalog.xml" xlink:title="Rutgers-University - ru23-20130910T1701" name=""/>
   <catalogRef xlink:href="rutgers/ud_275-20130912T2025/catalog.xml" xlink:title="University-of-Delaware - ud_275-20130912T2025" name=""/>
   <catalogRef xlink:href="rutgers/modena-20130911T1629/catalog.xml" xlink:title="University-of-Georgia - modena-20130911T1629" name=""/>

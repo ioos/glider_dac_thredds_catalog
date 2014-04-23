@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <catalog name="IOOS Glider DAC - rmendels - siospray31-20140405T1440 Catalog"
+         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+
+          <service name="all" base="" serviceType="compound">
+            <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+            <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
+            <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
+            <service name="uddc" serviceType="UDDC" base="/thredds/uddc/" />
+            <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+            <service name="sos" serviceType="SOS" base="/thredds/sos/" />
+          </service>
+
+          <service name="agg" base="" serviceType="compound">
+            <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+            <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
+            <service name="uddc" serviceType="UDDC" base="/thredds/uddc/" />
+            <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+            <service name="sos" serviceType="SOS" base="/thredds/sos/" />
+          </service>
+
+          <dataset name="rmendels - siospray31-20140405T1440 - Time Aggregation" ID="rmendels_siospray31-20140405T1440_Time" urlPath="rmendels_siospray31-20140405T1440_Time.ncml">
+            <serviceName>agg</serviceName>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rmendels/siospray31-20140405T1440/timeagg.ncml" />
+          </dataset>
+
+          <dataset name="rmendels - siospray31-20140405T1440 - Depth Averaged Aggregation" ID="rmendels_siospray31-20140405T1440_TimeUV" urlPath="rmendels_siospray31-20140405T1440_TimeUV.ncml">
+            <serviceName>agg</serviceName>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rmendels/siospray31-20140405T1440/timeuvagg.ncml" />
+          </dataset>
+
+          <datasetScan name="rmendels - siospray31-20140405T1440 - Individual Files" ID="rmendels_siospray31-20140405T1440_Files" path="rmendels_siospray31-20140405T1440_Files" location="/data/sync/rmendels/siospray31-20140405T1440">
+            <metadata inherited="true">
+              <serviceName>all</serviceName>
+            </metadata>
+            <filter>
+              <include wildcard="*.nc"/>
+            </filter>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+              <variable name="platform">
+                <attribute name="wmo_id" value="3801500" />
+              </variable>
+            </netcdf>
+          </datasetScan>
+        </catalog>
+        
