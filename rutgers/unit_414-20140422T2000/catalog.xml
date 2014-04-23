@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <catalog name="IOOS Glider DAC - University-of-Maine - unit_414-20140422T2000 Catalog"
+         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+
+          <service name="all" base="" serviceType="compound">
+            <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+            <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
+            <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
+            <service name="uddc" serviceType="UDDC" base="/thredds/uddc/" />
+            <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+            <service name="sos" serviceType="SOS" base="/thredds/sos/" />
+          </service>
+
+          <service name="agg" base="" serviceType="compound">
+            <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+            <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
+            <service name="uddc" serviceType="UDDC" base="/thredds/uddc/" />
+            <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+            <service name="sos" serviceType="SOS" base="/thredds/sos/" />
+          </service>
+
+          <dataset name="University-of-Maine - unit_414-20140422T2000 - Time Aggregation" ID="University-of-Maine_unit_414-20140422T2000_Time" urlPath="University-of-Maine_unit_414-20140422T2000_Time.ncml">
+            <serviceName>agg</serviceName>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/unit_414-20140422T2000/timeagg.ncml" />
+          </dataset>
+
+          <dataset name="University-of-Maine - unit_414-20140422T2000 - Depth Averaged Aggregation" ID="University-of-Maine_unit_414-20140422T2000_TimeUV" urlPath="University-of-Maine_unit_414-20140422T2000_TimeUV.ncml">
+            <serviceName>agg</serviceName>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rutgers/unit_414-20140422T2000/timeuvagg.ncml" />
+          </dataset>
+
+          <datasetScan name="University-of-Maine - unit_414-20140422T2000 - Individual Files" ID="University-of-Maine_unit_414-20140422T2000_Files" path="University-of-Maine_unit_414-20140422T2000_Files" location="/data/sync/rutgers/unit_414-20140422T2000">
+            <metadata inherited="true">
+              <serviceName>all</serviceName>
+            </metadata>
+            <filter>
+              <include wildcard="*.nc"/>
+            </filter>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+              <variable name="platform">
+                <attribute name="wmo_id" value="4801519" />
+              </variable>
+            </netcdf>
+          </datasetScan>
+        </catalog>
+        
