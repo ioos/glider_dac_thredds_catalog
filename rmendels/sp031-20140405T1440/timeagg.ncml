@@ -8,7 +8,7 @@
               <remove type="variable" name="v_qc"/>
 
               <variable name="platform">
-                <attribute name="wmo_id" value="NotAssigned" />
+                <attribute name="wmo_id" value="3801500" />
               </variable>
 
               <aggregation dimName="time" type="joinExisting" recheckEvery="5 min">

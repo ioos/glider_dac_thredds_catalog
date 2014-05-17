@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <catalog name="IOOS Glider DAC - rmendels - sp031-20140405T1440 Catalog"
+        <catalog name="IOOS Glider DAC - Scripps-Institution-of-Oceanography - sp031-20140405T1440 Catalog"
          xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
          xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -20,17 +20,17 @@
             <service name="sos" serviceType="SOS" base="/thredds/sos/" />
           </service>
 
-          <dataset name="rmendels - sp031-20140405T1440 - Time Aggregation" ID="rmendels_sp031-20140405T1440_Time" urlPath="rmendels_sp031-20140405T1440_Time.ncml">
+          <dataset name="Scripps-Institution-of-Oceanography - sp031-20140405T1440 - Time Aggregation" ID="Scripps-Institution-of-Oceanography_sp031-20140405T1440_Time" urlPath="Scripps-Institution-of-Oceanography_sp031-20140405T1440_Time.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rmendels/sp031-20140405T1440/timeagg.ncml" />
           </dataset>
 
-          <dataset name="rmendels - sp031-20140405T1440 - Depth Averaged Aggregation" ID="rmendels_sp031-20140405T1440_TimeUV" urlPath="rmendels_sp031-20140405T1440_TimeUV.ncml">
+          <dataset name="Scripps-Institution-of-Oceanography - sp031-20140405T1440 - Depth Averaged Aggregation" ID="Scripps-Institution-of-Oceanography_sp031-20140405T1440_TimeUV" urlPath="Scripps-Institution-of-Oceanography_sp031-20140405T1440_TimeUV.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rmendels/sp031-20140405T1440/timeuvagg.ncml" />
           </dataset>
 
-          <datasetScan name="rmendels - sp031-20140405T1440 - Individual Files" ID="rmendels_sp031-20140405T1440_Files" path="rmendels_sp031-20140405T1440_Files" location="/data/sync/rmendels/sp031-20140405T1440">
+          <datasetScan name="Scripps-Institution-of-Oceanography - sp031-20140405T1440 - Individual Files" ID="Scripps-Institution-of-Oceanography_sp031-20140405T1440_Files" path="Scripps-Institution-of-Oceanography_sp031-20140405T1440_Files" location="/data/sync/rmendels/sp031-20140405T1440">
             <metadata inherited="true">
               <serviceName>all</serviceName>
             </metadata>
@@ -39,7 +39,7 @@
             </filter>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
               <variable name="platform">
-                <attribute name="wmo_id" value="" />
+                <attribute name="wmo_id" value="3801500" />
               </variable>
             </netcdf>
           </datasetScan>
