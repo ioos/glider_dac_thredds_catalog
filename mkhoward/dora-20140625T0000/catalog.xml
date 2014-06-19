@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <catalog name="IOOS Glider DAC - Teledyne-Webb-Research-TWR - dora-20140625T0000 Catalog"
+        <catalog name="IOOS Glider DAC - Geochemical-Environmental-Research-Group - dora-20140625T0000 Catalog"
          xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
          xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -20,17 +20,17 @@
             <service name="sos" serviceType="SOS" base="/thredds/sos/" />
           </service>
 
-          <dataset name="Teledyne-Webb-Research-TWR - dora-20140625T0000 - Time Aggregation" ID="Teledyne-Webb-Research-TWR_dora-20140625T0000_Time" urlPath="Teledyne-Webb-Research-TWR_dora-20140625T0000_Time.ncml">
+          <dataset name="Geochemical-Environmental-Research-Group - dora-20140625T0000 - Time Aggregation" ID="Geochemical-Environmental-Research-Group_dora-20140625T0000_Time" urlPath="Geochemical-Environmental-Research-Group_dora-20140625T0000_Time.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/mkhoward/dora-20140625T0000/timeagg.ncml" />
           </dataset>
 
-          <dataset name="Teledyne-Webb-Research-TWR - dora-20140625T0000 - Depth Averaged Aggregation" ID="Teledyne-Webb-Research-TWR_dora-20140625T0000_TimeUV" urlPath="Teledyne-Webb-Research-TWR_dora-20140625T0000_TimeUV.ncml">
+          <dataset name="Geochemical-Environmental-Research-Group - dora-20140625T0000 - Depth Averaged Aggregation" ID="Geochemical-Environmental-Research-Group_dora-20140625T0000_TimeUV" urlPath="Geochemical-Environmental-Research-Group_dora-20140625T0000_TimeUV.ncml">
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/mkhoward/dora-20140625T0000/timeuvagg.ncml" />
           </dataset>
 
-          <datasetScan name="Teledyne-Webb-Research-TWR - dora-20140625T0000 - Individual Files" ID="Teledyne-Webb-Research-TWR_dora-20140625T0000_Files" path="Teledyne-Webb-Research-TWR_dora-20140625T0000_Files" location="/data/sync/mkhoward/dora-20140625T0000">
+          <datasetScan name="Geochemical-Environmental-Research-Group - dora-20140625T0000 - Individual Files" ID="Geochemical-Environmental-Research-Group_dora-20140625T0000_Files" path="Geochemical-Environmental-Research-Group_dora-20140625T0000_Files" location="/data/sync/mkhoward/dora-20140625T0000">
             <metadata inherited="true">
               <serviceName>all</serviceName>
             </metadata>

@@ -1,7 +1,7 @@
 <catalog xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" name="IOOS Glider DAC - Catalog">
   <catalogRef xlink:href="rmendels/sp031-20140405T1440/catalog.xml" xlink:title="Scripps-Institution-of-Oceanography - sp031-20140405T1440" name=""/>
   <catalogRef xlink:href="asa/unit_236-20121005T0023/catalog.xml" xlink:title="GLOS - unit_236-20121005T0023" name=""/>
-  <catalogRef xlink:href="mkhoward/dora-20140625T0000/catalog.xml" xlink:title="Teledyne-Webb-Research-TWR - dora-20140625T0000" name=""/>
+  <catalogRef xlink:href="mkhoward/dora-20140625T0000/catalog.xml" xlink:title="Geochemical-Environmental-Research-Group - dora-20140625T0000" name=""/>
   <catalogRef xlink:href="mkhoward/unit_308_201406191000/catalog.xml" xlink:title="Geochemical-Environmental-Research-Group - unit_308_201406191000" name=""/>
   <catalogRef xlink:href="mkhoward/reville-20140619T0000/catalog.xml" xlink:title="Geochemical-Environmental-Research-Group - reville-20140619T0000" name=""/>
   <catalogRef xlink:href="mkhoward/unit_202_201406181000/catalog.xml" xlink:title="Teledyne-Webb-Research-Corporation - unit_202_201406181000" name=""/>
