@@ -1,26 +1,49 @@
 <catalog xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" name="IOOS Glider DAC - Catalog">
   <catalogRef xlink:href="rmendels/sp031-20140405T1440/catalog.xml" xlink:title="Scripps-Institution-of-Oceanography - sp031-20140405T1440" name=""/>
+  <catalogRef xlink:href="rmendels/sp031-20140405T1440/catalog-individual.xml" xlink:title="Scripps-Institution-of-Oceanography - sp031-20140405T1440 - Individual Files" name=""/>
   <catalogRef xlink:href="asa/unit_236-20121005T0023/catalog.xml" xlink:title="GLOS - unit_236-20121005T0023" name=""/>
+  <catalogRef xlink:href="asa/unit_236-20121005T0023/catalog-individual.xml" xlink:title="GLOS - unit_236-20121005T0023 - Individual Files" name=""/>
   <catalogRef xlink:href="mkhoward/dora-20140625T0000/catalog.xml" xlink:title="Geochemical-Environmental-Research-Group - dora-20140625T0000" name=""/>
+  <catalogRef xlink:href="mkhoward/dora-20140625T0000/catalog-individual.xml" xlink:title="Geochemical-Environmental-Research-Group - dora-20140625T0000 - Individual Files" name=""/>
   <catalogRef xlink:href="mkhoward/unit_308_201406191000/catalog.xml" xlink:title="Geochemical-Environmental-Research-Group - unit_308_201406191000" name=""/>
+  <catalogRef xlink:href="mkhoward/unit_308_201406191000/catalog-individual.xml" xlink:title="Geochemical-Environmental-Research-Group - unit_308_201406191000 - Individual Files" name=""/>
   <catalogRef xlink:href="mkhoward/reville-20140619T0000/catalog.xml" xlink:title="Geochemical-Environmental-Research-Group - reville-20140619T0000" name=""/>
+  <catalogRef xlink:href="mkhoward/reville-20140619T0000/catalog-individual.xml" xlink:title="Geochemical-Environmental-Research-Group - reville-20140619T0000 - Individual Files" name=""/>
   <catalogRef xlink:href="mkhoward/unit_202_201406181000/catalog.xml" xlink:title="Teledyne-Webb-Research-Corporation - unit_202_201406181000" name=""/>
+  <catalogRef xlink:href="mkhoward/unit_202_201406181000/catalog-individual.xml" xlink:title="Teledyne-Webb-Research-Corporation - unit_202_201406181000 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/ru29-20130111T0724/catalog.xml" xlink:title="Rutgers-University - ru29-20130111T0724" name=""/>
+  <catalogRef xlink:href="rutgers/ru29-20130111T0724/catalog-individual.xml" xlink:title="Rutgers-University - ru29-20130111T0724 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/otn200-20130910T1551/catalog.xml" xlink:title="Dalhousie-University - otn200-20130910T1551" name=""/>
+  <catalogRef xlink:href="rutgers/otn200-20130910T1551/catalog-individual.xml" xlink:title="Dalhousie-University - otn200-20130910T1551 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/ru23-20130910T1701/catalog.xml" xlink:title="Rutgers-University - ru23-20130910T1701" name=""/>
+  <catalogRef xlink:href="rutgers/ru23-20130910T1701/catalog-individual.xml" xlink:title="Rutgers-University - ru23-20130910T1701 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/ud_275-20130912T2025/catalog.xml" xlink:title="University-of-Delaware - ud_275-20130912T2025" name=""/>
+  <catalogRef xlink:href="rutgers/ud_275-20130912T2025/catalog-individual.xml" xlink:title="University-of-Delaware - ud_275-20130912T2025 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/modena-20130911T1629/catalog.xml" xlink:title="University-of-Georgia - modena-20130911T1629" name=""/>
+  <catalogRef xlink:href="rutgers/modena-20130911T1629/catalog-individual.xml" xlink:title="University-of-Georgia - modena-20130911T1629 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/ru23-20131017T1614/catalog.xml" xlink:title="Rutgers-University - ru23-20131017T1614" name=""/>
+  <catalogRef xlink:href="rutgers/ru23-20131017T1614/catalog-individual.xml" xlink:title="Rutgers-University - ru23-20131017T1614 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/ru29-20131110T1400/catalog.xml" xlink:title="Rutgers-University - ru29-20131110T1400" name=""/>
+  <catalogRef xlink:href="rutgers/ru29-20131110T1400/catalog-individual.xml" xlink:title="Rutgers-University - ru29-20131110T1400 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/blue-20130906T1347/catalog.xml" xlink:title="University-of-Massachusetts-Dartmouth - blue-20130906T1347" name=""/>
+  <catalogRef xlink:href="rutgers/blue-20130906T1347/catalog-individual.xml" xlink:title="University-of-Massachusetts-Dartmouth - blue-20130906T1347 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/salacia-20130916T1603/catalog.xml" xlink:title="North-Caroline-State-University - salacia-20130916T1603" name=""/>
+  <catalogRef xlink:href="rutgers/salacia-20130916T1603/catalog-individual.xml" xlink:title="North-Caroline-State-University - salacia-20130916T1603 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/ru22-20130924T2010/catalog.xml" xlink:title="Rutgers-University - ru22-20130924T2010" name=""/>
+  <catalogRef xlink:href="rutgers/ru22-20130924T2010/catalog-individual.xml" xlink:title="Rutgers-University - ru22-20130924T2010 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/ru07-20130815T1701/catalog.xml" xlink:title="Rutgers-University - ru07-20130815T1701" name=""/>
+  <catalogRef xlink:href="rutgers/ru07-20130815T1701/catalog-individual.xml" xlink:title="Rutgers-University - ru07-20130815T1701 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/ru05-20130815T1650/catalog.xml" xlink:title="Rutgers-University - ru05-20130815T1650" name=""/>
+  <catalogRef xlink:href="rutgers/ru05-20130815T1650/catalog-individual.xml" xlink:title="Rutgers-University - ru05-20130815T1650 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/saul-20130906T1504/catalog.xml" xlink:title="Woods-Hole-Oceanographic-Institute - saul-20130906T1504" name=""/>
+  <catalogRef xlink:href="rutgers/saul-20130906T1504/catalog-individual.xml" xlink:title="Woods-Hole-Oceanographic-Institute - saul-20130906T1504 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/ru28-20130912T1650/catalog.xml" xlink:title="Rutgers-University - ru28-20130912T1650" name=""/>
+  <catalogRef xlink:href="rutgers/ru28-20130912T1650/catalog-individual.xml" xlink:title="Rutgers-University - ru28-20130912T1650 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/otn201-20130916T1448/catalog.xml" xlink:title="Dalhousie-University - otn201-20130916T1448" name=""/>
+  <catalogRef xlink:href="rutgers/otn201-20130916T1448/catalog-individual.xml" xlink:title="Dalhousie-University - otn201-20130916T1448 - Individual Files" name=""/>
   <catalogRef xlink:href="rutgers/penobscot-20130910T1658/catalog.xml" xlink:title="University-of-Maine - penobscot-20130910T1658" name=""/>
+  <catalogRef xlink:href="rutgers/penobscot-20130910T1658/catalog-individual.xml" xlink:title="University-of-Maine - penobscot-20130910T1658 - Individual Files" name=""/>
   <catalogRef xlink:href="usf/usfbass-20140303T1600/catalog.xml" xlink:title="University-of-South-Florida - usfbass-20140303T1600" name=""/>
+  <catalogRef xlink:href="usf/usfbass-20140303T1600/catalog-individual.xml" xlink:title="University-of-South-Florida - usfbass-20140303T1600 - Individual Files" name=""/>
   <catalogRef xlink:href="scratch.xml" xlink:title="Scratch and Testing" name=""/>
 </catalog>

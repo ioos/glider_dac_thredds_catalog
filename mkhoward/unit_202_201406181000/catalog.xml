@@ -3,15 +3,6 @@
          xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
          xmlns:xlink="http://www.w3.org/1999/xlink">
 
-          <service name="all" base="" serviceType="compound">
-            <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
-            <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
-            <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
-            <service name="uddc" serviceType="UDDC" base="/thredds/uddc/" />
-            <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
-            <service name="sos" serviceType="SOS" base="/thredds/sos/" />
-          </service>
-
           <service name="agg" base="" serviceType="compound">
             <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
             <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
@@ -29,19 +20,5 @@
             <serviceName>agg</serviceName>
             <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/mkhoward/unit_202_201406181000/timeuvagg.ncml" />
           </dataset>
-
-          <datasetScan name="Teledyne-Webb-Research-Corporation - unit_202_201406181000 - Individual Files" ID="Teledyne-Webb-Research-Corporation_unit_202_201406181000_Files" path="Teledyne-Webb-Research-Corporation_unit_202_201406181000_Files" location="/data/sync/mkhoward/unit_202_201406181000">
-            <metadata inherited="true">
-              <serviceName>all</serviceName>
-            </metadata>
-            <filter>
-              <include wildcard="*.nc"/>
-            </filter>
-            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
-              <variable name="platform">
-                <attribute name="wmo_id" value="4801529" />
-              </variable>
-            </netcdf>
-          </datasetScan>
         </catalog>
         
