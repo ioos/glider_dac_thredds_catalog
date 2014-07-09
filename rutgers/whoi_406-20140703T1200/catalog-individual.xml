@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <catalog name="IOOS Glider DAC - Wood-Hole-Oceanographic-Institution - whoi_406-20140703T1200 Catalog (Individual Files)"
+         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+
+          <service name="all" base="" serviceType="compound">
+            <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+            <service name="http" serviceType="HTTPServer" base="/thredds/fileServer/" />
+            <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
+            <service name="uddc" serviceType="UDDC" base="/thredds/uddc/" />
+            <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+            <service name="sos" serviceType="SOS" base="/thredds/sos/" />
+          </service>
+
+          <datasetScan name="Wood-Hole-Oceanographic-Institution - whoi_406-20140703T1200 - Individual Files" ID="Wood-Hole-Oceanographic-Institution_whoi_406-20140703T1200_Files" path="Wood-Hole-Oceanographic-Institution_whoi_406-20140703T1200_Files" location="/data/sync/rutgers/whoi_406-20140703T1200">
+            <metadata inherited="true">
+              <serviceName>all</serviceName>
+            </metadata>
+            <filter>
+              <include wildcard="*.nc"/>
+            </filter>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2">
+              <variable name="platform">
+                <attribute name="wmo_id" value="4801517" />
+              </variable>
+            </netcdf>
+          </datasetScan>
+        </catalog>
+        
