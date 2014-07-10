@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <catalog name="IOOS Glider DAC - Wood-Hole-Oceanographic-Institution - whoi_406-20140703T1200 Catalog (Individual Files)"
+        <catalog name="IOOS Glider DAC - Woods-Hole-Oceanographic-Institution - whoi_406-20140703T1200 Catalog (Individual Files)"
          xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
          xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -12,7 +12,7 @@
             <service name="sos" serviceType="SOS" base="/thredds/sos/" />
           </service>
 
-          <datasetScan name="Wood-Hole-Oceanographic-Institution - whoi_406-20140703T1200 - Individual Files" ID="Wood-Hole-Oceanographic-Institution_whoi_406-20140703T1200_Files" path="Wood-Hole-Oceanographic-Institution_whoi_406-20140703T1200_Files" location="/data/sync/rutgers/whoi_406-20140703T1200">
+          <datasetScan name="Woods-Hole-Oceanographic-Institution - whoi_406-20140703T1200 - Individual Files" ID="Woods-Hole-Oceanographic-Institution_whoi_406-20140703T1200_Files" path="Woods-Hole-Oceanographic-Institution_whoi_406-20140703T1200_Files" location="/data/sync/rutgers/whoi_406-20140703T1200">
             <metadata inherited="true">
               <serviceName>all</serviceName>
             </metadata>
