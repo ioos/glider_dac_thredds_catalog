@@ -1,8 +1,16 @@
 <catalog xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" name="IOOS Glider DAC - Catalog">
+  <catalogRef xlink:href="rmendels/sp025-20140611T1843/catalog.xml" xlink:title="Scripps-Institution-of-Oceanography - sp025-20140611T1843" name=""/>
+  <catalogRef xlink:href="rmendels/sp025-20140611T1843/catalog-individual.xml" xlink:title="Scripps-Institution-of-Oceanography - sp025-20140611T1843 - Individual Files" name=""/>
   <catalogRef xlink:href="rmendels/sp011-20140501T0000/catalog.xml" xlink:title="Scripps-Institution-of-Oceanography - sp011-20140501T0000" name=""/>
   <catalogRef xlink:href="rmendels/sp011-20140501T0000/catalog-individual.xml" xlink:title="Scripps-Institution-of-Oceanography - sp011-20140501T0000 - Individual Files" name=""/>
+  <catalogRef xlink:href="rmendels/sp048-20140116T1813/catalog.xml" xlink:title="Scripps-Institution-of-Oceanography - sp048-20140116T1813" name=""/>
+  <catalogRef xlink:href="rmendels/sp048-20140116T1813/catalog-individual.xml" xlink:title="Scripps-Institution-of-Oceanography - sp048-20140116T1813 - Individual Files" name=""/>
   <catalogRef xlink:href="rmendels/sp031-20140405T1440/catalog.xml" xlink:title="Scripps-Institution-of-Oceanography - sp031-20140405T1440" name=""/>
   <catalogRef xlink:href="rmendels/sp031-20140405T1440/catalog-individual.xml" xlink:title="Scripps-Institution-of-Oceanography - sp031-20140405T1440 - Individual Files" name=""/>
+  <catalogRef xlink:href="rmendels/sp028-20140605T1703/catalog.xml" xlink:title="Scripps-Institution-of-Oceanography - sp028-20140605T1703" name=""/>
+  <catalogRef xlink:href="rmendels/sp028-20140605T1703/catalog-individual.xml" xlink:title="Scripps-Institution-of-Oceanography - sp028-20140605T1703 - Individual Files" name=""/>
+  <catalogRef xlink:href="rmendels/sp018-20140605T0010/catalog.xml" xlink:title="Scripps-Institution-of-Oceanography - sp018-20140605T0010" name=""/>
+  <catalogRef xlink:href="rmendels/sp018-20140605T0010/catalog-individual.xml" xlink:title="Scripps-Institution-of-Oceanography - sp018-20140605T0010 - Individual Files" name=""/>
   <catalogRef xlink:href="asa/unit_236-20121005T0023/catalog.xml" xlink:title="GLOS - unit_236-20121005T0023" name=""/>
   <catalogRef xlink:href="asa/unit_236-20121005T0023/catalog-individual.xml" xlink:title="GLOS - unit_236-20121005T0023 - Individual Files" name=""/>
   <catalogRef xlink:href="mkhoward/dora-20140625T0000/catalog.xml" xlink:title="Geochemical-Environmental-Research-Group - dora-20140625T0000" name=""/>
