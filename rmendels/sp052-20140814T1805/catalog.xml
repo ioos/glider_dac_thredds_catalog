@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <catalog name="IOOS Glider DAC - Scripps-Institution-of-Oceanography - sp052-20140814T1805 Catalog"
+         xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0"
+         xmlns:xlink="http://www.w3.org/1999/xlink">
+
+          <service name="agg" base="" serviceType="compound">
+            <service name="odap" serviceType="OpenDAP" base="/thredds/dodsC/" />
+            <service name="ncml" serviceType="NCML" base="/thredds/ncml/" />
+            <service name="uddc" serviceType="UDDC" base="/thredds/uddc/" />
+            <service name="iso" serviceType="ISO" base="/thredds/iso/"/>
+            <service name="sos" serviceType="SOS" base="/thredds/sos/" />
+          </service>
+
+          <dataset name="Scripps-Institution-of-Oceanography - sp052-20140814T1805 - Time Aggregation" ID="Scripps-Institution-of-Oceanography_sp052-20140814T1805_Time" urlPath="Scripps-Institution-of-Oceanography_sp052-20140814T1805_Time.ncml">
+            <serviceName>agg</serviceName>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rmendels/sp052-20140814T1805/timeagg.ncml" />
+          </dataset>
+
+          <dataset name="Scripps-Institution-of-Oceanography - sp052-20140814T1805 - Depth Averaged Aggregation" ID="Scripps-Institution-of-Oceanography_sp052-20140814T1805_TimeUV" urlPath="Scripps-Institution-of-Oceanography_sp052-20140814T1805_TimeUV.ncml">
+            <serviceName>agg</serviceName>
+            <netcdf xmlns="http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2" location="/scratch/glider_dac_thredds_catalog/rmendels/sp052-20140814T1805/timeuvagg.ncml" />
+          </dataset>
+        </catalog>
+        
