@@ -1,4 +1,6 @@
 <catalog xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0" name="IOOS Glider DAC - Catalog">
+  <catalogRef xlink:href="rmendels/sp028-20141210T1741/catalog.xml" xlink:title="Scripps-Institution-of-Oceanography - sp028-20141210T1741" name=""/>
+  <catalogRef xlink:href="rmendels/sp028-20141210T1741/catalog-individual.xml" xlink:title="Scripps-Institution-of-Oceanography - sp028-20141210T1741 - Individual Files" name=""/>
   <catalogRef xlink:href="rmendels/sp025-20140611T1843/catalog.xml" xlink:title="Scripps-Institution-of-Oceanography - sp025-20140611T1843" name=""/>
   <catalogRef xlink:href="rmendels/sp025-20140611T1843/catalog-individual.xml" xlink:title="Scripps-Institution-of-Oceanography - sp025-20140611T1843 - Individual Files" name=""/>
   <catalogRef xlink:href="rmendels/sp020-20140802T1347/catalog.xml" xlink:title="Scripps-Institution-of-Oceanography - sp020-20140802T1347" name=""/>
